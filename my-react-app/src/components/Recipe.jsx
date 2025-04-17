@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { Button, ButtonGroup, Card, CardHeader, CardMedia, CardContent, CardActions, Checkbox, CommentIcon, IconButton, ListItem, ListItemButton, ListItemIcon, ListItemText, Typography } from "@mui/material";
-
+import { Button, ButtonGroup, Card, CardHeader, CardMedia, CardContent, CardActions, Checkbox, IconButton, ListItem, ListItemButton, ListItemIcon, ListItemText, Typography } from "@mui/material";
 /* I will continue to work on making this work but for now I do not have enough of a knowledge base to make this work AND understand it
 // This function was taken from the MaterialUI Docs -> Components -> Display Data -> List
 export default function CheckboxList() {
@@ -26,7 +25,7 @@ export default function CheckboxList() {
                             key={value}
                             secondaryAction={
                                 <IconButton edge="end" aria-label="comments">
-                                    <CommentIcon/>
+                                    <CommentIcon/> // Install proper library to access this element
                                 </IconButton>
                             }
                             disablePadding
@@ -67,3 +66,5 @@ const Recipe = ({recipe: {name, ingredients, instructions}}) => {
         </Card>
     )
 }
+
+export default Recipe

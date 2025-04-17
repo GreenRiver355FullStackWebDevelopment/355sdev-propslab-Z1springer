@@ -1,8 +1,10 @@
+import RecipeContainer from "./components/RecipeContainer.jsx"
+
 function App() {
 
   return (
     <>
-      <p>Hello WOrld!</p>
+      <RecipeContainer/>
     </>
   )
 }
